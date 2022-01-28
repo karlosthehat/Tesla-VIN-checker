@@ -1,4 +1,8 @@
-Here I have a simple and crude python script to log in to your Tesla account and search the source code for your VIN (if it exists).
+Edit: Are you a n00b? there are some detailed installation instructions coming in the coming days. Stay tuned! If you know what you are donig, keep reading....
+
+Hi!
+
+This is a simple and crude python script to log in to your Tesla account and search the source code for your VIN (if it exists).
 
 To get this to work you are going to need a Raspberry Pi 3 (or newer) running Raspbian with desktop and the following packages installed:
 
@@ -6,7 +10,7 @@ To get this to work you are going to need a Raspberry Pi 3 (or newer) running Ra
 -selenium
 -yagmail
 
-The reason you need the desktop version of Raspbian is because selenium will not run on a headless setup without a virtual display.  Installing and configuring Selenium on your pi can be a bit of pain, so check YouTube for help. You will need geckodriver so that it can control chromium etc. I wrote this for the pi because it was simply too difficult to get Selenium working on Windows or MacOS.
+The reason you need the desktop version of Raspbian is because selenium will not run on a headless setup without a virtual display (it is possible, but I am not currently running my Pi in this config).  Installing and configuring Selenium on your pi can be a bit of pain, so check YouTube for help or wait for my detailed instructions (soon to follow). You will need geckodriver so that it can control chromium etc. I wrote this for the pi because it was simply too difficult to get Selenium working on Windows or MacOS.
 
 Once you have all the packages above installed, login to your Tesla account using Chromium and make sure you save the username and password using a “default” profile. If you don’t do this, the script can’t login as it relies on your login details being saved prior.
 
