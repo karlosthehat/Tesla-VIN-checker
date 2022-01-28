@@ -14,7 +14,11 @@ Now edit the code and fill in the blanks with your RN etc. Also double check wha
 
 NOTE USING YAGMAIL IN THIS FASHION: I specifically created a throwaway gmail account for this purpose. I DO NOT RECOMMEND USING YOUR OWN PERSONAL EMAIL ACCOUNT FOR THIS. Please create a throwaway one for safety and whitelist it in your personal email account, so it isn't marked as spam. If you are not comfortable putting your password in the code, it is possible to configure yagmail so that these details are saved to your pi. Check the dev webpage to see how to do that. Or just use a throwaway account. You may also need to give yagmail permission to access your email account (for example gmail does this).
 
-If you have done all of this correctly, the code should work. Then you can use the “crontab -e” command to setup a schedule to run at your leisure.
+If you have done all of this correctly, the code should work. Then in the terminal, you can use the “crontab -e” command to setup a schedule to run at your leisure. It should look like this: "00 * * * * xvfb-run python3 /home/pi/teslavinchecker.py"
+It will run every hour on the hour. "xvfb-run" means it will run headless and in the background.
+
+For those wondering about the hard exit/sys flush command, I had some issues with the pi getting bogged down after days of running this script. This seems to have solved it.
+
 
 As I said, the code is rushed and crude. Please improve on it! :)
 
