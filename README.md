@@ -6,7 +6,7 @@ To get this to work you are going to need a Raspberry Pi 3 (or newer) running Ra
 -selenium
 -yagmail
 
-The reason you need the desktop version of Raspbian is because selenium will not run on a headless setup without a virtual display.  Installing and configuring Selenium on your pi can be a bit of pain, so check YouTube for help. You will need geckodriver so that it can control chromium etc.
+The reason you need the desktop version of Raspbian is because selenium will not run on a headless setup without a virtual display.  Installing and configuring Selenium on your pi can be a bit of pain, so check YouTube for help. You will need geckodriver so that it can control chromium etc. I wrote this for the pi because it was simply too difficult to get Selenium working on Windows or MacOS.
 
 Once you have all the packages above installed, login to your Tesla account using Chromium and make sure you save the username and password using a “default” profile. If you don’t do this, the script can’t login as it relies on your login details being saved prior.
 
