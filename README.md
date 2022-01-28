@@ -9,6 +9,7 @@ To get this to work you are going to need a Raspberry Pi 3 (or newer) running Ra
 -chromium
 -selenium
 -yagmail
+-xvfb
 
 The reason you need the desktop version of Raspbian is because selenium will not run on a headless setup without a virtual display (it is possible, but I am not currently running my Pi in this config).  Installing and configuring Selenium on your pi can be a bit of pain, so check YouTube for help or wait for my detailed instructions (soon to follow). You will need chromedriver so that selenium can control chromium. I wrote this for the pi because it was simply too difficult to get Selenium working on Windows or MacOS.
 
