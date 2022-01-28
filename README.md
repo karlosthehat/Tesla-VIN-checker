@@ -12,7 +12,7 @@ Once you have all the packages above installed, login to your Tesla account usin
 
 Now edit the code and fill in the blanks with your RN etc. Also double check what your VIN begins with. In my case it is "LRW" but it varies between model years, etc. Change as necessary. Check the code for further instructions.
 
-NOTE USING YAGMAIL IN THIS FASHION: I specifically created a throwaway gmail account for this purpose. I DO NOT RECOMMEND USING YOUR OWN PERSONAL EMAIL ACCOUNT FOR THIS. Please create a throwaway one for safety and whitelist it in your personal email account, so it isn't marked as spam. If you are not comfortable putting your password in the code, it is possible to configure yagmail so that these details are saved to your pi. Check the dev webpage to see how to do that. Or just use a throwaway account.
+NOTE USING YAGMAIL IN THIS FASHION: I specifically created a throwaway gmail account for this purpose. I DO NOT RECOMMEND USING YOUR OWN PERSONAL EMAIL ACCOUNT FOR THIS. Please create a throwaway one for safety and whitelist it in your personal email account, so it isn't marked as spam. If you are not comfortable putting your password in the code, it is possible to configure yagmail so that these details are saved to your pi. Check the dev webpage to see how to do that. Or just use a throwaway account. You may also need to give yagmail permission to access your email account (for example gmail does this).
 
 If you have done all of this correctly, the code should work. Then you can use the “crontab -e” command to setup a schedule to run at your leisure.
 
