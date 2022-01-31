@@ -1,5 +1,3 @@
-Edit: Are you a n00b? there are some detailed installation instructions coming in the coming days. Stay tuned! If you know what you are donig, keep reading....
-
 Hi!
 
 This is a simple and crude python script to log in to your Tesla account and search the source code for your VIN (if it exists).
@@ -22,7 +20,7 @@ NOTE USING YAGMAIL IN THIS FASHION: I specifically created a throwaway gmail acc
 If you have done all of this correctly, the code should work. Then in the terminal, you can use the “crontab -e” command to setup a schedule to run at your leisure. It should look like this: "00 * * * * xvfb-run python3 /home/pi/teslavinchecker.py"
 It will run every hour on the hour. "xvfb-run" means it will run headless and in the background.
 
-For those wondering about the hard exit/sys flush command, I had some issues with the pi getting bogged down after days of running this script. This seems to have solved it.
+For those wondering about the hard exit/sys flush command, I had some issues with the pi getting bogged down after days of running this script (my pi runs several projects like this 24/7). This seems to have solved it.
 
 
 As I said, the code is rushed and crude. Please improve on it! :)
