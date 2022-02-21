@@ -35,6 +35,8 @@ NOTES:
 
 *I take no responsibility for anything that may happen as a result of using this script. Use at your own risk.
 
+*Tesla is good at recognising bots, hence the need to run this in a visible browser. I am working on a way to run this headless (especially on a headless Raspberry Pi), but as of yet have not had any luck getting past the bot-checker. Watch this space! Also, I have found it is easiest to install this on a Raspberry Pi. It IS possible on any other platform, but involves so many steps (installing Python, web drivers etc) that it isn't really worth the hassle. TBC.
+
 Enjoy!
 
 Karlos22
