@@ -27,7 +27,7 @@ NOTES:
 
 *Do NOT close the chrome browser window, otherwise you will need to stop the script and run it again.
 
-*The chrome window will always remain open.
+*The chrome window will always remain open. While it is running, you cannot use chrome for any other purpose. If you want to surf the web, use another browser such as Firefox. I recommend using your Pi for only this purpose and run it 24/7.
 
 *You can monitor progress by watching the comments in the shell, under the code in Thonny Python IDE. I recommend leaving this open as it will notify you when a VIN has been found.
 
