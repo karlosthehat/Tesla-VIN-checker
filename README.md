@@ -26,9 +26,13 @@ The script will login to your Tesla account, check for a VIN and logout again. I
 NOTES: 
 
 *Do NOT close the chrome browser window, otherwise you will need to stop the script and run it again.
+
 *The chrome window will always remain open.
+
 *You can monitor progress by watching the comments in the shell, under the code in Thonny Python IDE. I recommend leaving this open as it will notify you when a VIN has been found.
+
 *I recommend that you do not check for a VIN more than once per hour, to avoid flooding Tesla's server with too many requests (or being recognised as a bot).
+
 *I take no responsibility for anything that may happen as a result of using this script. Use at your own risk.
 
 Enjoy!
