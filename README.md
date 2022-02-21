@@ -15,20 +15,21 @@ STEP 3: Open “Thonny Python IDE” and paste the contents of “teslavinchecke
 
 	Reservation Number
 	Tesla account username and password
-	VIN prefix (In 2022 it is LRW, however this may change. Check TMC or VedaPrime’s Discord for updated information)
+	VIN prefix 
+	(In 2022 it is LRW, however this may change. Check TMC or VedaPrime’s Discord for updated information)
 
 STEP 4: Save the file, name it whatever you like and press “Run current script” (green play icon, top left corner). The following will happen:
 
-	A blank chrome window opens
-	The script will login to your Tesla account, check for a VIN and logout again. If there is no VIN, it will continue to check every 60 minutes. If a VIN is found, it will close.
+A blank chrome window opens
+The script will login to your Tesla account, check for a VIN and logout again. If there is no VIN, it will continue to check every 60 minutes. If a VIN is found, it will close.
 	
 NOTES: 
 
-	Do NOT close the chrome browser window, otherwise you will need to stop the script and run it again.
-	The chrome window will always remain open.
-	You can monitor progress by watching the comments in the shell, under the code in Thonny Python IDE. I recommend leaving this open as it will notify you when a VIN has been found.
-   I recommend that you do not check for a VIN more than once per hour, to avoid flooding Tesla's server with too many requests (or being recognised as a bot).
-   I take no responsibility for anything that may happen as a result of using this script. Use at your own risk.
+*Do NOT close the chrome browser window, otherwise you will need to stop the script and run it again.
+*The chrome window will always remain open.
+*You can monitor progress by watching the comments in the shell, under the code in Thonny Python IDE. I recommend leaving this open as it will notify you when a VIN has been found.
+*I recommend that you do not check for a VIN more than once per hour, to avoid flooding Tesla's server with too many requests (or being recognised as a bot).
+*I take no responsibility for anything that may happen as a result of using this script. Use at your own risk.
 
 Enjoy!
 
