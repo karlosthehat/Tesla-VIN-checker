@@ -41,7 +41,11 @@ NOTES:
 
 *I take no responsibility for anything that may happen as a result of using this script. Use at your own risk.
 
-*Tesla is good at recognising bots, hence the need to run this in a visible browser. I am working on a way to run this headless (especially on a headless Raspberry Pi), but as of yet have not had any luck getting past the bot-checker. Watch this space! Also, I have found it is easiest to install this on a Raspberry Pi. It IS possible on any other platform, but involves so many steps (installing Python, web drivers etc) that it isn't really worth the hassle. TBC.
+*Tesla is good at recognising bots, hence the need to run this in a visible browser. I am working on a way to run this completely headless, but as of yet have not had any luck getting past the bot-checker.
+
+*If you want to run this without a monitor connected, there is a workaround: unplug your HDMI cable from your monitor but LEAVE IT CONNECTED TO THE Pi. If you need to reboot for some reason, plug the monitor in again. If you don't do it this way, Tesla will detect you are a bot. I am working on a more permenant and elegant soltuion to this problem.
+
+*I have found it is easiest to install this on a Raspberry Pi. I am considering other platforms in the future.
 
 Enjoy!
 
