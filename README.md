@@ -9,7 +9,7 @@ STEP 2: Once you are up and running, install the necessary packages by opening a
 	sudo apt-get update
 	sudo apt-get upgrade
 	sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr
-	sudo pip install selenium
+	sudo pip install selenium pyvirtualdisplay
 
 STEP 3: Open “Thonny Python IDE” and paste the contents of “teslavinchecker.py”. You will need to enter in the following information where indicated in the code:
 
@@ -24,7 +24,7 @@ A blank chrome window opens
 The script will login to your Tesla account, check for a VIN and logout again. If there is no VIN, it will continue to check every 60 minutes. If a VIN is found, it will close.
 
 	Alternatively, you can SSH into your Pi and run the following command:
-	python3 /dir_where_your_file_lives/teslavinchecker.py
+	DISPLAY=:0 python3 /dir_where_your_file_lives/teslavinchecker.py
 	
 NOTES: 
 
