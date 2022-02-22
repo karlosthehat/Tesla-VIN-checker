@@ -9,7 +9,7 @@ STEP 2: Once you are up and running, install the necessary packages by opening a
 	sudo apt-get update
 	sudo apt-get upgrade
 	sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr
-	sudo pip install selenium pyvirtualdisplay
+	sudo pip install selenium
 
 STEP 3: Open “Thonny Python IDE” and paste the contents of “teslavinchecker.py”. You will need to enter in the following information where indicated in the code:
 
