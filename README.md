@@ -37,6 +37,8 @@ NOTES:
 
 *Tesla is good at recognising bots, hence the need to run this in a visible browser. I am working on a way to run this headless (especially on a headless Raspberry Pi), but as of yet have not had any luck getting past the bot-checker. Watch this space! Also, I have found it is easiest to install this on a Raspberry Pi. It IS possible on any other platform, but involves so many steps (installing Python, web drivers etc) that it isn't really worth the hassle. TBC.
 
+*If you don't want to leave your Pi hooked up to a monitor (or can't), an easy way around this is to install AnyDesk. It is a lightweight remote desktop software that can be installed on the Pi and you can easily log in and out to monitor the script.
+
 Enjoy!
 
 Karlos22
