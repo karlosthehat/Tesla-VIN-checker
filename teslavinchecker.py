@@ -3,14 +3,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 from datetime import datetime
-from pyvirtualdisplay import Display
 import os
 import sys
 profile = "http://www.tesla.com/teslaaccount/profile?rn=RNxxxxxxxxx" #Put your RN here
 logout = "http://www.tesla.com/user/logout/"
 driver = webdriver.Chrome()
-disp = Display()
-disp.start()
 
 def check_vin():
     print("Checking for a VIN...")
@@ -30,7 +27,6 @@ def vin_found():
     print("VIN found in source code at", datetime.now())
     print("Program closing.")
     driver.get(logout)
-    disp.stop()
     driver.quit()
     sys.stdout.flush()
     os._exit(0)
