@@ -26,6 +26,9 @@ The script will login to your Tesla account, check for a VIN and logout again. I
 	Alternatively, you can SSH into your Pi and run the following command:
 	DISPLAY=:0 python3 /dir_where_your_file_lives/teslavinchecker.py
 	
+	You can also run it directly from the terminal on your Pi with:
+	python3 /dir_where_your_file_lives/teslavinchecker.py
+	
 NOTES: 
 
 *Do NOT close the chrome browser window, otherwise you will need to stop the script and run it again.
