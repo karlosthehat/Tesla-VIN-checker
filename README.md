@@ -1,3 +1,9 @@
+**UPDATE 13/08/2022**
+
+THE CODE APPEARS TO BE BROKEN AS TESLA IS ACTIVELY BLOCKING BOTS. I HAVE YET TO FIND A WORKAROUND. THANKS FOR YOUR PATIENCE :)
+
+----------------------------------------------------
+
 INSTALLATION INSTRUCTIONS FOR TESLA VIN CHECKER
 
 This is a relatively simple install process and should take you no more than 10 minutes. You will need a Raspberry Pi 3 or newer, running Raspberry Pi OS with Desktop.
