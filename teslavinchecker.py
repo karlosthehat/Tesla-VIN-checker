@@ -34,7 +34,7 @@ def vin_found():
     os._exit(0)
 
 def vin_notfound():
-    print("No VIN yet :( Checking again in 1 hour.")
+    print("No VIN yet :( Checking again at specified interval.")
     driver.get(logout)
     time.sleep(3600) #Time in seconds determines how often you want to check for a VIN. I recommend no more than every hour
     check_vin()
