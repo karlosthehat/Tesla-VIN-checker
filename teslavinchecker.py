@@ -5,15 +5,17 @@ import time
 from datetime import datetime
 import os
 import sys
+options = webdriver.ChromeOptions() 
+options.add_argument('--disable-blink-features=AutomationControlled')
+driver = webdriver.Chrome(options=options)
 profile = "http://www.tesla.com/teslaaccount/profile?rn=RNxxx" #Put your RN here
 logout = "http://www.tesla.com/user/logout/"
-driver = webdriver.Chrome()
 
 def check_vin():
     print("Checking for a VIN...")
     driver.get(profile)
     username = driver.find_element(By.ID, 'form-input-identity')
-    username.send_keys('xxx') #put your Tesla usernamehere
+    username.send_keys('xxx') #put your Tesla username here
     login_button = driver.find_element(By.ID, 'form-submit-continue')
     login_button.click()
     password = driver.find_element(By.ID, 'form-input-credential')
